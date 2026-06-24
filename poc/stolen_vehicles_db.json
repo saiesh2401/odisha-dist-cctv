@@ -1,0 +1,26 @@
+{
+  "stolen_vehicles": [
+    {"plate": "OD02AK7834", "normalized": "OD02AK7834", "type": "Hyundai i20", "color": "White", "fir": "234/2026", "ps": "Saheed Nagar PS, Bhubaneswar", "date": "2026-06-15", "owner": "Ramesh Patel"},
+    {"plate": "OD21F9012", "normalized": "OD21F9012", "type": "Maruti Swift", "color": "Red", "fir": "145/2026", "ps": "Phulbani PS", "date": "2026-06-12", "owner": "Suresh Mohanty"},
+    {"plate": "OD33H4567", "normalized": "OD33H4567", "type": "Honda Activa", "color": "Black", "fir": "198/2026", "ps": "Berhampur PS", "date": "2026-06-10", "owner": "Bikram Sahu"},
+    {"plate": "OD02BK1234", "normalized": "OD02BK1234", "type": "TVS Apache", "color": "Blue", "fir": "267/2026", "ps": "Nayapalli PS, Bhubaneswar", "date": "2026-06-17", "owner": "Dilip Nayak"},
+    {"plate": "OD05M8901", "normalized": "OD05M8901", "type": "Tata Nexon", "color": "Grey", "fir": "301/2026", "ps": "Cuttack Town PS", "date": "2026-06-18", "owner": "Anil Mishra"},
+    {"plate": "MH12AB1234", "normalized": "MH12AB1234", "type": "Maruti Alto", "color": "Silver", "fir": "456/2026", "ps": "Pune City PS", "date": "2026-06-01", "owner": "Test Vehicle"},
+    {"plate": "KA01MN5678", "normalized": "KA01MN5678", "type": "Honda City", "color": "White", "fir": "789/2026", "ps": "Bangalore PS", "date": "2026-06-05", "owner": "Test Vehicle 2"},
+    {"plate": "AA82545", "normalized": "AA82545", "type": "Suzuki Swift", "color": "Brown", "fir": "412/2026", "ps": "Phulbani PS", "date": "2026-06-18", "owner": "Demo - Stolen Vehicle"},
+    {"plate": "GAE6705", "normalized": "GAE6705", "type": "Hyundai Verna", "color": "Silver", "fir": "389/2026", "ps": "Baliguda PS", "date": "2026-06-17", "owner": "Demo - Stolen Vehicle"}
+  ],
+  "case_linked_vehicles": [
+    {"plate": "OD21C7890", "normalized": "OD21C7890", "case_type": "Robbery", "fir": "178/2026", "ps": "Phulbani PS", "io": "SI Mohan Das", "date": "2026-06-08"},
+    {"plate": "OD05J2345", "normalized": "OD05J2345", "case_type": "Drug Trafficking", "fir": "212/2026", "ps": "Baliguda PS", "io": "Inspector R. Jena", "date": "2026-06-14"},
+    {"plate": "WB02X5678", "normalized": "WB02X5678", "case_type": "Interstate Theft", "fir": "334/2026", "ps": "Cuttack PS", "io": "DSP K. Pradhan", "date": "2026-06-16"},
+    {"plate": "AR6O6L", "normalized": "AR6O6L", "case_type": "Hit and Run", "fir": "445/2026", "ps": "Phulbani PS", "io": "SI D. Behera", "date": "2026-06-19"},
+    {"plate": "A3K961", "normalized": "A3K961", "case_type": "Drug Trafficking", "fir": "467/2026", "ps": "Tikabali PS", "io": "Inspector S. Nayak", "date": "2026-06-15"}
+  ],
+  "watchlist": [
+    {"plate_pattern": "OD21*", "reason": "Monitor all OD-21 (Kandhamal) vehicles during festival", "added_by": "SP Kandhamal", "date": "2026-06-19"},
+    {"plate_pattern": "WB*", "reason": "Out-of-state vehicle monitoring", "added_by": "SP Kandhamal", "date": "2026-06-18"},
+    {"plate_pattern": "JAPHI*", "reason": "Suspicious vehicle flagged by intelligence", "added_by": "DSP Phulbani", "date": "2026-06-20"},
+    {"plate_pattern": "RAV*", "reason": "Vehicle linked to narcotics route", "added_by": "Anti-Narcotics Cell", "date": "2026-06-19"}
+  ]
+}

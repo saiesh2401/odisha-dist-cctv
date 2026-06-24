@@ -1,0 +1,33 @@
+.DS_Store
+*.pyc
+__pycache__/
+node_modules/
+.next/
+.env
+
+# Large model files (download on setup)
+*.pt
+!poc/models/.gitkeep
+
+# Large video/media files
+poc/data/*.mp4
+poc/data/*.avi
+poc/data/*.mov
+poc/data/traffic_car_*.jpg
+
+# FRS dataset (download from Kaggle)
+poc/data/frs_samples/
+
+# Generated results
+poc/results/
+poc/uploads/
+
+# Wanted persons (populated during setup)
+poc/wanted_persons/*.jpeg
+poc/wanted_persons/*.jpg
+poc/wanted_persons/*.png
+!poc/wanted_persons/.gitkeep
+
+# EasyOCR/DeepFace model cache
+.EasyOCR/
+.deepface/
